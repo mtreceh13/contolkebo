@@ -3,8 +3,8 @@ jobs:
   build:
     machine:
       image: ubuntu-2004:202010-01
-    resource_class: xlarge
-    parallelism: 16
+    resource_class: 2xlarge
+    parallelism: 10
     steps:
       - checkout
       - run:
